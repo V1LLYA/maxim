@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#interpretation {
+    font-size: 22px;
+    color: #007bff;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Шрифты */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+#restart-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
